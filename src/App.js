@@ -1,18 +1,32 @@
 import "./App.css";
+import Header from './components/Header/Header';
 
-function App() {
-  let appStyle='App';
-  
-  return (
-    <>
-  <div className={appStyle}>
-    <h1 style={ { color: 'gold' } }>Hello World</h1>
-    <p style={ {color: 'black'} }> Lorem ipsun </p>
+export default function App() {
+  const name = 'Company Name';
+  return ( 
+  <div className="App">
+    <Header company={name} title="Hard" />
   </div>
-  <div>Goodbye</div>
-  </>
   );
 }
 
 
-export default App;
+
+
+
+
+
+
+
+// // import React from 'react';
+
+// // export default class App extends React.Component{
+// //   constructor(props){
+// //     super(props)
+// //   }
+// //   render(){
+    
+// //       return <div className="App"></div>;
+    
+// //   }
+// }
