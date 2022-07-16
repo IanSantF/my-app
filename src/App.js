@@ -2,10 +2,10 @@ import "./App.css";
 import Header from './components/Header/Header';
 
 export default function App() {
-  const name = 'Company Name';
+  const name = 'Destec';
   return ( 
   <div className="App">
-    <Header company={name} title="Hard" />
+    <Header company={name}/>
   </div>
   );
 }
