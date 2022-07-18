@@ -1,4 +1,4 @@
-import "./link.css";
+import './link.css';
 
 export default function Link(props) {
   const url = props.lnk.url;

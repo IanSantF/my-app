@@ -1,11 +1,12 @@
-import "./App.css";
+import './App.css';
 import Header from './components/Header/Header';
-
+import SearchBar from './components/SearchBar/SearchBar';
 export default function App() {
   const name = 'Destec';
   return ( 
   <div className="App">
-    <Header company={name}/>
+    <Header company={name} />
+    <SearchBar />
   </div>
   );
 }
